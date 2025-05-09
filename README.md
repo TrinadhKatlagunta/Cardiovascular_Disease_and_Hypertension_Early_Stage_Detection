@@ -16,6 +16,7 @@ The goal of this project is to build intelligent systems that can assist in the 
 
 ## 📁 Directory Structure
 
+```
 CVD(Model Chaining)/
 │
 ├── Cardio_Vascular_Disease_Detection_Main.ipynb # Notebook for CVD modeling & evaluation
@@ -32,8 +33,7 @@ CVD(Model Chaining)/
 ├── app.py # Flask backend app
 └── requirements.txt # Python dependencies
 
-
----
+```
 
 ## 📊 Machine Learning Models Tried
 
