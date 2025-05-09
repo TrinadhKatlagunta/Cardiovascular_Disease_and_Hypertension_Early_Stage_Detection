@@ -85,9 +85,20 @@ These were chosen for their high validation accuracy, low complexity, and strong
 To run this project locally:
 
 ```
+# Step 1: Clone the repository locally
 git clone https://github.com/TrinadhKatlagunta/Cardiovascular_Disease_and_Hypertension_Early_Stage_Detection.git
 cd Cardiovascular_Disease_and_Hypertension_Early_Stage_Detection
+
+# Step 2: Install Python 3.10 and ensure it's in PATH
+
+# Step 3: Create and activate virtual environment
+python3.10 -m venv venv
+venv\Scripts\activate
+
+# Step 4: Install dependencies
 pip install -r requirements.txt
+
+# Step 5: Run the app
 python app.py
 ```
 
