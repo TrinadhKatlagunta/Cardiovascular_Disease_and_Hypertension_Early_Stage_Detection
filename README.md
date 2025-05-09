@@ -6,13 +6,9 @@ This repository contains two machine learning pipelines for predicting **Cardiov
 
 👉 [Deployed Web Application (on Render)](https://early-stage-cardio-vascular-disease.onrender.com/)
 
----
-
 ## 🧠 Project Overview
 
 The goal of this project is to build intelligent systems that can assist in the **early diagnosis** of cardiovascular and hypertension-related health risks. Using medical records and health indicators, the models predict whether a patient is at risk or not.
-
----
 
 ## 📁 Directory Structure
 
@@ -61,9 +57,7 @@ For both datasets (CVD and Hypertension), we experimented with a wide range of m
 1. Artificial Neural Network (ANN)  
 2. GRU (Gated Recurrent Unit)  
 3. Bi-LSTM (Bidirectional Long Short-Term Memory)  
-4. Custom BiLSTM Architectures  
-
----
+4. Custom BILSTM Architectures  
 
 ## ✅ Final Model Selection
 
@@ -74,22 +68,35 @@ After rigorous evaluation using metrics like **accuracy**, **precision**, **reca
 
 These were chosen for their high validation accuracy, low complexity, and strong interpretability — making them suitable for deployment.
 
----
-
 ## 🚀 Deployment
 
-- ⚙️ Backend Framework: Flask  
-- 🎨 Frontend: HTML, CSS (with Jinja templating)  
-- 🌐 Deployment Platform: Render  
-
----
+- Web app created using **Flask**.
+- Hosted on **Render**.
+- Accepts user input for medical attributes and returns risk prediction instantly.
 
 ## ⚙️ Installation
 
 To run this project locally:
 
-```bash
-git clone https://github.com/your-username/CVD-Hypertension-Detection.git
-cd CVD-Hypertension-Detection
+```
+git clone https://github.com/TrinadhKatlagunta/Cardiovascular_Disease_and_Hypertension_Early_Stage_Detection.git
+cd Cardiovascular_Disease_and_Hypertension_Early_Stage_Detection
 pip install -r requirements.txt
 python app.py
+```
+
+## 📌 Future Improvements
+
+- Integration with real-time health APIs
+- Model explainability using SHAP or LIME
+- Add user authentication and history tracking
+- Improved front-end UI with React
+
+## 👨‍💻 Author
+
+**Trinadh Katlagunta**  
+B.Tech CSE (AI & ML) | R.V.R & J.C College of Engineering  
+
+## 📜 License
+
+This project is open-source and free to use under the MIT License.
