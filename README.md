@@ -2,13 +2,16 @@
 
 This repository contains two machine learning pipelines for predicting **Cardiovascular Disease (CVD)** and **Hypertension** at an early stage using multiple machine learning and deep learning models. The final selected models are **Decision Tree Classifiers (DTC)** for both pipelines, based on their performance and simplicity for deployment.
 
+
 ## 🌐 Live Demo
 
 👉 [Deployed Web Application (on Render)](https://early-stage-cardio-vascular-disease.onrender.com/)
 
+
 ## 🧠 Project Overview
 
 The goal of this project is to build intelligent systems that can assist in the **early diagnosis** of cardiovascular and hypertension-related health risks. Using medical records and health indicators, the models predict whether a patient is at risk or not.
+
 
 ## 📁 Directory Structure
 
@@ -30,6 +33,7 @@ CVD(Model Chaining)/
 └── requirements.txt # Python dependencies
 
 ```
+
 
 ## 🧪 Models Explored
 For both datasets (CVD and Hypertension), we experimented with a wide range of models:
@@ -58,6 +62,7 @@ For both datasets (CVD and Hypertension), we experimented with a wide range of m
 3. Bi-LSTM (Bidirectional Long Short-Term Memory)  
 4. Custom BILSTM Architectures  
 
+
 ## ✅ Final Model Selection
 
 After rigorous evaluation using metrics like **accuracy**, **precision**, **recall**, and **loss curves**, we finalized the following models:
@@ -67,11 +72,13 @@ After rigorous evaluation using metrics like **accuracy**, **precision**, **reca
 
 These were chosen for their high validation accuracy, low complexity, and strong interpretability — making them suitable for deployment.
 
+
 ## 🚀 Deployment
 
 - Web app created using **Flask**.
 - Hosted on **Render**.
 - Accepts user input for medical attributes and returns risk prediction instantly.
+
 
 ## ⚙️ Installation
 
@@ -84,6 +91,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
+
 ## 📌 Future Improvements
 
 - Integration with real-time health APIs
@@ -91,10 +99,12 @@ python app.py
 - Add user authentication and history tracking
 - Improved front-end UI with React
 
+
 ## 👨‍💻 Author
 
 **Trinadh Katlagunta**  
 B.Tech CSE (AI & ML) | R.V.R & J.C College of Engineering  
+
 
 ## 📜 License
 
