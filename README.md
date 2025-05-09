@@ -85,7 +85,7 @@ These were chosen for their high validation accuracy, low complexity, and strong
 To run this project locally:
 
 ```
-# Step 1: Clone the repository locally
+# Step 1: Clone the repository
 git clone https://github.com/TrinadhKatlagunta/Cardiovascular_Disease_and_Hypertension_Early_Stage_Detection.git
 cd Cardiovascular_Disease_and_Hypertension_Early_Stage_Detection
 
