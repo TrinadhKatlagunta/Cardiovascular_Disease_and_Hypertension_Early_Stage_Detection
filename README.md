@@ -31,11 +31,10 @@ CVD(Model Chaining)/
 
 ```
 
-## 📊 Machine Learning Models Tried
-
+## 🧪 Models Explored
 For both datasets (CVD and Hypertension), we experimented with a wide range of models:
 
-### ✅ Classical ML Models
+### ✅ Classical Machine Learning Models
 
 1. Logistic Regression  
 2. Support Vector Classifier (SVC)  
@@ -52,7 +51,7 @@ For both datasets (CVD and Hypertension), we experimented with a wide range of m
 13. Logistic Regression CV  
 14. Voting Classifier  
 
-### 🤖 Deep Learning Models
+### ✅ Deep Learning Models
 
 1. Artificial Neural Network (ANN)  
 2. GRU (Gated Recurrent Unit)  
