@@ -1,6 +1,6 @@
 # Cardiovascular Disease and Hypertension Early Stage Detection
 
-This repository contains two machine learning pipelines for predicting **Cardiovascular Disease (CVD)** and **Hypertension** at an early stage using multiple machine learning and deep learning models. The final selected models are **Decision Tree Classifiers (DTC)** for both pipelines, based on their performance and simplicity for deployment. Both models achieved around **99% accuracy** on validation datasets.
+This repository contains two machine learning pipelines for predicting Cardiovascular Disease (CVD) and Hypertension at an early stage using multiple machine learning and deep learning models. The final selected models are Support Vector Classifier (SVC) for CVD prediction and Decision Tree Classifier (DTC) for Hypertension stage prediction, based on their performance and simplicity for deployment. The models achieved approximately 90% and 99% accuracy on their respective validation datasets.
 
 ## 🌐 Live Demo
 
@@ -94,10 +94,14 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## 👨‍💻 Author
+## 👨‍💻 Team Members
 
-**Trinadh Katlagunta**  
-B.Tech CSE (AI & ML) | R.V.R & J.C College of Engineering  
+- 👨‍🔬 **Sai Vidith** – Experimented with 14 ML & 4 DL models for optimal performance  
+- 🧑‍💻 **Sandeep Rao** – Led data preprocessing and feature engineering  
+- 🛠 **Phanindra** – Handled metric evaluation and ML pipeline testing  
+- 🚀 **Trinadh Katlagunta** – Built model chaining, Flask integration, and full deployment  
+
+> 🏫 B.Tech CSE (AI & ML) | R.V.R & J.C College of Engineering
 
 ## 📜 License
 
